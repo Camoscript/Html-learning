@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   
+
     <meta name="description" content="A webpage about my joiurney in HTML">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,29 @@
 </head>
 
 <body>
+    <form action="">
+        <fieldset>
+            <label for="Fullname">FullName:</label>
+            <input type="text" name="Fullname" id="fn">
+            <br>
+            <label for="lastname">LastName:</label>
+            <input type="text" name="Lastname" id="fn">
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">female
+
+            <br>
+            <label for="Country of origin">Counrty of origin</label>
+            <select name="Country of origin" id="">
+                <option value="">Nigeria</option>
+                <option value="">Croatia</option>
+                <option value="">Bulgeria</option>
+                <option value="">algeria</option>
+            </select>
+        </fieldset>
+    </form>
+    <!-- <img src="https://pendorastore.com/product/apple-macbook-pro-2015-13-core-i7-3-1ghz-16gb-ram-256gb-ssd/" alt="Saturn"> -->
     <!-- this shows the way elements can be displayed on the page -->
     <h1>User Manual</h1>
     <!-- all h tags and p tags are block elements -->
@@ -23,9 +46,22 @@
     <div>This is a div</div>
     <!-- the div is also a block level elements -->
     <p><span>Hello is this inline yet?</span>does it work?</p>
+    <!-- <a href="https://github.com/Camoscript/Html-learning/issues">Google</a> -->
     <!-- the span is an inline level element  -->
     <!-- Block level elements can contain any other type of elements
     while inline elements can only contain other inline elements. -->
+    <dl>
+        <h1>Steps to take</h1>
+        <dt>How to boil water</dt>
+        <dd>
+            The steps to boil water
+        </dd>
+
+        <dt>
+            how to make tea
+        </dt>
+        <dd>You carry out the proccess</dd>
+    </dl>
 </body>
 
 </html>
